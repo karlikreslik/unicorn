@@ -136,11 +136,11 @@ while running:
 
     elapsed_time = pygame.time.get_ticks() - start_time
     if elapsed_time >= time_limit:
-        show_game_over("Čas vypršel!")
+        show_game_over("Time is over!")
         running = False
 
     if score >= 35:
-        show_game_over("Vyhráváš!")
+        show_game_over("You win!")
         running = False
 
     pygame.display.flip()
